@@ -11,7 +11,7 @@ function createArray(length) {
 document.addEventListener ("DOMContentLoaded", function(){
 	console.log("Hello ^^,")
 	if(document.getElementById("ctl00_ContentPlaceHolder1_ctl00_txtCaptcha")){
-		console.log("from Bách văn Khoa's <3 with love","C A P T C H A         B Y P A S S E D");
+		console.log("Hướng <3","C A P T C H A         B Y P A S S E D");
 		document.getElementById("ctl00_ContentPlaceHolder1_ctl00_txtCaptcha").value = document.getElementById("ctl00_ContentPlaceHolder1_ctl00_lblCapcha").textContent;
 		$('#ctl00_ContentPlaceHolder1_ctl00_btnXacNhan').click();
 	}
@@ -49,8 +49,8 @@ document.addEventListener ("DOMContentLoaded", function(){
 		$('</tbody></table>').appendTo(tables[i]);
 		tkb_div.append(tables[i])
 	}
-	tables[0].after($('<h4>from Bách Văn Khoa\'s keyboard with <3</h4>'))
-	tables[1].after($("<h4>Nếu có bất kì vấn đề gì phát sinh thì hãy xóa extension TamperMonkey đi, mọi chuyện sẽ trở về như lúc bạn chưa từng cài.<br>Mọi ý kiến đóng góp đều được trân trọng, ném vào vùng kín cho mình nha :3 -> <a target='new' style='color:red;'href='https:fb.com/bachvkhoa'>CLICK HERE</a></h4>"))
+	tables[0].after($('<h4>Hướng <3</h4>'))
+	tables[1].after($("<h4>Nếu có bất kì vấn đề gì phát sinh thì hãy xóa extension TamperMonkey đi, mọi chuyện sẽ trở về như lúc bạn chưa từng cài.</h4>"))
 	$("#pnlDSMonhocDK").prepend(tkb_div)
 	tkb_div.css("background-color","#FFFFFF")
 	$('#ctl00_ContentPlaceHolder1_ctl00_UpdatePanel2').append("<div id=bvk_tooltip style='display:none;background-color:yellow;width=500px;'></div>")
